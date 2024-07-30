@@ -1,6 +1,6 @@
 WelcomeText = \
 """
-Hi **%(first_name)s**, send me a file or add me as an admin to any channel to instantly generate file links.
+Hi🤝 **%(first_name)s**, send me a file or add me as an admin to any channel to instantly generate files📁to links🔗.
 
 Add me to your channel to instantly generate links for any downloadable media. Once received, I will automatically attach appropriate buttons to the post containing the URL. If you want me to ignore a given post, you can insert `#pass` in the post.
 
@@ -26,17 +26,17 @@ UserInfoText = \
 
 FileLinksText = \
 """
-**Download Link:**
+**Download Link 🔗:**
 `%(dl_link)s`
-**Telegram File:**
+**Telegram File 📁:**
 `%(tg_link)s`
 """
 
 MediaLinksText = \
 """
-**Download Link:**
+**Download Link 🔗:**
 `%(dl_link)s`
-**Stream Link:**
+**Stream Link 🖥:**
 `%(stream_link)s`
 **Telegram File:**
 `%(tg_link)s`
@@ -64,5 +64,5 @@ Invalid payload.
 
 MediaTypeNotSupportedText = \
 """
-Sorry, this media type is not supported.
+Sorry, this media type is not supported 😓.
 """
