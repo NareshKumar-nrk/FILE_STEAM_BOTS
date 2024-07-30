@@ -26,7 +26,7 @@ UserInfoText = \
 
 FileLinksText = \
 """
-**Download Link 🔗:**
+** 📥Download 🔗Link:**
 
 ```%(dl_link)s```
 
@@ -46,7 +46,7 @@ MediaLinksText = \
 
 ```%(stream_link)s```
 
-**Telegram File:**
+**Telegram File 📁:**
 
 ```%(tg_link)s```
 """
