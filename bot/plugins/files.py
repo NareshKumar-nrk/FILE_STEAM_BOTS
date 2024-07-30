@@ -28,7 +28,7 @@ async def user_file_handler(event: NewMessage.Event | Message):
             buttons=[
                 [
                     Button.url('Download 📥', dl_link),
-                    Button.url('Stream 🕹️', stream_link)
+                    Button.url('Stream 🖥', stream_link)
                 ],
                 [
                     Button.url('Get File 📁', deep_link),
@@ -70,7 +70,7 @@ async def channel_file_handler(event: NewMessage.Event | Message):
         try:
             await event.edit(
                 buttons=[
-                    [Button.url("Download 📥", dl_link), Button.url("Stream 🕹️", stream_link)],
+                    [Button.url("Download 📥", dl_link), Button.url("Stream 🖥", stream_link)],
                     [Button.url("Get File 📁", tg_link)],
                 ]
             )
