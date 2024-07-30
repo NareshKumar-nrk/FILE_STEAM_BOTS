@@ -9,7 +9,7 @@ bp = Blueprint('main', __name__)
 
 @bp.route('/')
 async def home():
-    return redirect(f'https://t.me/filetolinkks')
+    return redirect(f'https://t.me/GriffiLink_bot')
 
 @bp.route('/dl/<int:file_id>')
 async def transmit_file(file_id):
