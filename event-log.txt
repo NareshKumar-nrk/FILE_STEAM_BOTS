@@ -1,0 +1,60 @@
+[21/08/2025 16:21:46][bot][INFO] -> initializing...
+[21/08/2025 16:21:46][uvicorn][INFO] -> Web server is started!
+[21/08/2025 16:21:46][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 16:22:56][bot][INFO] -> initializing...
+[21/08/2025 16:22:56][uvicorn][INFO] -> Web server is started!
+[21/08/2025 16:22:56][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 16:23:01][bot][INFO] -> Telegram client is now started.
+[21/08/2025 16:23:01][bot][INFO] -> Loading bot plugins...
+[21/08/2025 16:23:01][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 16:23:01][bot][INFO] -> Bot is now ready!
+[21/08/2025 16:23:32][bot][INFO] -> initializing...
+[21/08/2025 16:23:32][uvicorn][INFO] -> Web server is started!
+[21/08/2025 16:23:32][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 16:23:34][bot][INFO] -> Telegram client is now started.
+[21/08/2025 16:23:34][bot][INFO] -> Loading bot plugins...
+[21/08/2025 16:23:34][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 16:23:34][bot][INFO] -> Bot is now ready!
+[21/08/2025 16:26:18][bot][INFO] -> initializing...
+[21/08/2025 16:26:18][uvicorn][INFO] -> Web server is started!
+[21/08/2025 16:26:18][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 16:26:20][bot][INFO] -> Telegram client is now started.
+[21/08/2025 16:26:20][bot][INFO] -> Loading bot plugins...
+[21/08/2025 16:26:20][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 16:26:20][bot][INFO] -> Bot is now ready!
+[21/08/2025 16:28:42][bot][INFO] -> initializing...
+[21/08/2025 16:28:42][uvicorn][INFO] -> Web server is started!
+[21/08/2025 16:28:42][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 16:28:44][bot][INFO] -> Telegram client is now started.
+[21/08/2025 16:28:44][bot][INFO] -> Loading bot plugins...
+[21/08/2025 16:28:44][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 16:28:44][bot][INFO] -> Bot is now ready!
+[21/08/2025 16:32:56][bot][INFO] -> initializing...
+[21/08/2025 16:32:56][uvicorn][INFO] -> Web server is started!
+[21/08/2025 16:32:56][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 16:32:57][bot][INFO] -> Telegram client is now started.
+[21/08/2025 16:32:57][bot][INFO] -> Loading bot plugins...
+[21/08/2025 16:32:57][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 16:32:57][bot][INFO] -> Bot is now ready!
+[21/08/2025 17:12:53][bot][INFO] -> initializing...
+[21/08/2025 17:12:53][uvicorn][INFO] -> Web server is started!
+[21/08/2025 17:12:53][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 17:12:55][bot][INFO] -> Telegram client is now started.
+[21/08/2025 17:12:55][bot][INFO] -> Loading bot plugins...
+[21/08/2025 17:12:55][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 17:12:55][bot][INFO] -> Bot is now ready!
+[21/08/2025 17:21:38][bot][INFO] -> initializing...
+[21/08/2025 17:21:38][uvicorn][INFO] -> Web server is started!
+[21/08/2025 17:21:38][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 17:21:39][bot][INFO] -> Telegram client is now started.
+[21/08/2025 17:21:39][bot][INFO] -> Loading bot plugins...
+[21/08/2025 17:21:39][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 17:21:39][bot][INFO] -> Bot is now ready!
+[21/08/2025 17:24:09][bot][INFO] -> initializing...
+[21/08/2025 17:24:09][uvicorn][INFO] -> Web server is started!
+[21/08/2025 17:24:09][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[21/08/2025 17:24:10][bot][INFO] -> Telegram client is now started.
+[21/08/2025 17:24:10][bot][INFO] -> Loading bot plugins...
+[21/08/2025 17:24:10][bot][INFO] -> Loaded 4 plugins.
+[21/08/2025 17:24:10][bot][INFO] -> Bot is now ready!
+[21/08/2025 17:24:19][uvicorn.access][INFO] -> 49.37.194.146:0 - "GET / HTTP/1.1" 302
