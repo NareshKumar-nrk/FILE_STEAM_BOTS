@@ -13,6 +13,10 @@ from bot.modules.static import *
 @verify_user(private=True)
 async def user_file_handler(event: NewMessage.Event | Message):
     secret_code = token_hex(Telegram.SECRET_CODE_LENGTH)
+
+    # 🔹 Set the secret code as the message text (like in channel handler)
+    event.message.text = f"{secret_code}"
+
     message = await send_message(event.message)
     message_id = message.id
 
@@ -23,7 +27,12 @@ async def user_file_handler(event: NewMessage.Event | Message):
     if (event.document and 'video' in event.document.mime_type) or event.video:
         stream_link = f'{Server.BASE_URL}/stream/{message_id}?code={secret_code}'
         await event.reply(
-            message= MediaLinksText % {'dl_link': dl_link, 'tg_link': tg_link, 'tg_link': tg_link, 'stream_link': stream_link},
+            message= MediaLinksText % {
+                'dl_link': dl_link,
+                'tg_link': tg_link,
+                'tg_link': tg_link,
+                'stream_link': stream_link
+            },
             buttons=[
                 [
                     Button.url('Download 📥', dl_link),
@@ -37,7 +46,10 @@ async def user_file_handler(event: NewMessage.Event | Message):
         )
     else:
         await event.reply(
-            message=FileLinksText % {'dl_link': dl_link, 'tg_link': tg_link},
+            message= FileLinksText % {
+                'dl_link': dl_link,
+                'tg_link': tg_link
+            },
             buttons=[
                 [
                     Button.url('Download 📥', dl_link),
@@ -54,9 +66,9 @@ async def user_file_handler(event: NewMessage.Event | Message):
 async def channel_file_handler(event: NewMessage.Event | Message):
     if event.raw_text and '#pass' in event.raw_text:
         return
-    
+
     secret_code = token_hex(Telegram.SECRET_CODE_LENGTH)
-    event.message.text = f"`{secret_code}`"
+    event.message.text = f"{secret_code}"
     message = await send_message(event.message)
     message_id = message.id
 
